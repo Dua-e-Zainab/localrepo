@@ -1,0 +1,120 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar Styling */
+nav {
+  background-color: #4CAF50; /* Green background */
+  padding: 15px 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #FFC107; /* Gold color for hover */
+  text-decoration: underline;
+}
+
+/* Header Styling */
+h1 {
+  font-size: 36px;
+  color: #333;
+  text-align: center;
+  margin-top: 40px;
+  font-weight: 600;
+}
+
+h2, h3 {
+  color: #444;
+}
+
+/* Paragraph Styling */
+p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+}
+
+h3 {
+  font-size: 20px;
+  color: #777;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Page Content Styling */
+.container {
+  padding: 20px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 20px;
+  text-align: left;
+  display: inline-block;
+}
+
+ul li {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Image Styling */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav li {
+    margin: 10px 0;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
